@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "outDir": "./dist",
+    "incremental": true,
+    "allowJs": true,
+    "typeRoots": ["./node_modules/@types", "./src/types"],
+    "types": ["node"],
+    "allowSyntheticDefaultImports": true,
+    "alwaysStrict": true,
+    "declaration": false,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": false,
+    "noImplicitThis": true,
+    "noUnusedLocals": false,
+    "noStrictGenericChecks": true,
+    "strictNullChecks": false,
+    "strictFunctionTypes": true,
+    "moduleResolution": "node",
+    "preserveSymlinks": true,
+    "target": "es2018",
+    "module": "commonjs",
+    "pretty": true,
+    "strict": true,
+    "inlineSourceMap": true,
+    "skipLibCheck": true,
+    "lib": ["es2018", "esnext.asynciterable", "DOM"],
+    "paths": {
+      "*": ["./*"]
+    }
+  },
+  "exclude": ["node_modules/**/*"],
+  "include": ["./src/**/*"]
+}
